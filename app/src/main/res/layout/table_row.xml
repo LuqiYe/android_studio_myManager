@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:padding="20dp"
+        android:id="@+id/tablerow"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:layout_weight="1.5"
+            android:background="@drawable/border"
+            android:id="@+id/col1"
+            android:paddingLeft="10px"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:background="@drawable/border"
+            android:layout_weight="1"
+            android:id="@+id/txt_arr"
+            android:paddingLeft="10px"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:background="@drawable/border"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:layout_weight="1"
+            android:id="@+id/txt_dep"
+            android:paddingLeft="10px"
+            />
+
+    </TableRow>
+
+
+</LinearLayout>
